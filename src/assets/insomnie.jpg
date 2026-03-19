@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#">
+  <head>
+        <meta name='be:drupal-theme' content='1.0.0'>
+<!-- be_ixf, sdk, gho-->
+<meta name="be:sdk" content="php_sdk_1.5.12" />
+<meta name="be:timer" content="53ms" />
+<meta name="be:norm_url" content="https%3A%2F%2Fwww.dartmouth-health.org%2Farticles%2Fhow-sleep-times-stress" />
+<meta name="be:capsule_url" content="https%3A%2F%2Fixfd1-api.bc0a.com%2Fapi%2Fixf%2F1.0.0%2Fget_capsule%2Ff00000000303529%2F1728654414" />
+<meta name="be:api_dt" content="-05:00y_2026;-05:00m_02;-05:00d_09;-05:00h_11;-05:00mh_14;p_epoch:1770653643798" />
+<meta name="be:mod_dt" content="-05:00y_2026;-05:00m_02;-05:00d_09;-05:00h_11;-05:00mh_14;p_epoch:1770653643798" />
+<meta name="be:diag" content="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" />
+<meta name="be:messages" content="false" />
+<style>
+  .be-ix-link-block {}
+</style>
+
+	  
+    <meta charset="utf-8" />
+<meta name="description" content="Stress might be keeping you awake at night.Worrying about finances, work, politics, or illness activates your nervous system and releases hormones like cortisol and adrenaline that disrupt your sleep." />
+<link rel="canonical" href="https://www.dartmouth-health.org/articles/how-sleep-times-stress" />
+<meta property="og:site_name" content="Dartmouth Health" />
+<meta property="og:title" content="How to Sleep in Times of Stress" />
+<meta property="og:image" content="https://www.dartmouth-health.org/sites/default/files/2025-03/Sleep_1400x904_0.jpg" />
+<meta property="og:image:url" content="https://www.dartmouth-health.org/sites/default/files/2025-03/Sleep_1400x904_0.jpg" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="1400" />
+<meta property="og:image:height" content="904" />
+<meta property="og:image:alt" content="woman awake in bed" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "NewsArticle",
+            "@id": "https://www.dartmouth-health.org/articles/how-sleep-times-stress",
+            "headline": "How to Sleep in Times of Stress",
+            "name": "How to Sleep in Times of Stress",
+            "about": [
+                "Psychiatry",
+                "Sleep Services"
+            ],
+            "description": "Is stress keeping you awake? Learn from our experts how you can get a better night’s rest.",
+            "image": {
+                "@type": "ImageObject",
+                "representativeOfPage": "True",
+                "url": "https://www.dartmouth-health.org/sites/default/files/2025-03/Sleep_1400x904_0.jpg",
+                "width": "1400",
+                "height": "904"
+            },
+            "datePublished": "2025-03-21T14:45:44-0400",
+            "isAccessibleForFree": "True",
+            "dateModified": "2025-04-15T13:02:30-0400",
+            "author": {
+                "@type": "Organization",
+                "@id": "https://www.dartmouth-health.org/",
+                "name": "Dartmouth Health",
+                "url": "https://www.dartmouth-health.org/",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.dartmouth-health.org/themes/custom/d_hh/dartmouth-health.svg",
+                    "width": "240",
+                    "height": "60"
+                }
+            },
+            "publisher": {
+                "@type": "Organization",
+                "@id": "https://www.dartmouth-health.org/",
+                "name": "Dartmouth Health",
+                "url": "https://www.dartmouth-health.org/",
+                "sameAs": [
+                    "https://www.facebook.com/DartmouthHealth",
+                    "https://www.youtube.com/dartmouthhealth",
+                    "https://x.com/DartmouthHealth",
+                    "https://linkedin.com/company/dartmouth-health",
+                    "https://instagram.com/dartmouthhealth"
+                ],
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.dartmouth-health.org/themes/custom/d_hh/dartmouth-health.svg",
+                    "width": "240",
+                    "height": "60"
+                }
+            },
+            "mainEntityOfPage": "https://www.dartmouth-health.org/articles/how-sleep-times-stress"
+        },
+        {
+            "@type": "MedicalOrganization",
+            "@id": "https://www.dartmouth-health.org/articles/how-sleep-times-stress@id",
+            "url": "https://www.dartmouth-health.org/articles/how-sleep-times-stress",
+            "name": "Psychiatry,Sleep Services"
+        }
+    ]
+}</script>
+<meta name="story-date" content="March 21st, 2025" />
+<meta name="story-date-numeric" content="20250321" />
+<link rel="icon" href="/themes/custom/d_hh/favicon.ico?v=2" sizes="any" />
+<link rel="icon" href="/themes/custom/d_hh/favicon.png" type="image/x-icon" />
+<link rel="icon" href="/themes/custom/d_hh/icon.svg" type="image/svg+xml" />
+<link rel="mask-icon" href="/themes/custom/d_hh/icon.svg" color="006750" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="/themes/custom/d_hh/apple-touch-icon.png" />
+
+    <title>How to Sleep in Times of Stress | Dartmouth Health</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_bQJ1ycjKJvCkoP8R4I7P9YIN4tptlVwG7GQ1AqvhLRk.css?delta=0&amp;language=en&amp;theme=d_hh&amp;include=eJxLic_I0E_PyU9KzNFNLi4GACzaBao" />
+
+    <script src="/sites/default/files/js/js_bPGqJnbGVgp0pxKkPsORXAzowtqN-shCKbJRmX2i-i4.js?scope=header&amp;delta=0&amp;language=en&amp;theme=d_hh&amp;include=eJxLic_I0E_PyU9KzNHNKtZJAXFLEtNzE_MS01OLAKueC0M"></script>
+
+  </head>
+  <body data-is-front="false" data-node-type="article">
+                
+                  <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P8Z9B8K"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	  <!-- End Google Tag Manager (noscript) -->
+            
+        <a href="#main-content" class="visually-hidden focusable dh-btn dh-btn--skiptocontent" data-gtm="1580489634024-419185694">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="layout-container">
+  <header class="header" role="banner">
+    
+      <div>
+    
+<div class="nav-system__wrapper">
+  <div class="row">
+    <nav role="navigation" aria-labelledby="block-d-hh-system-navigation-menu"  id="block-d-hh-system-navigation" class="nav-system">
+                                
+      <h2  class="visually-hidden" id="block-d-hh-system-navigation-menu">System navigation</h2>
+      
+                  
+
+
+  
+    
+            <ul  block="block-d-hh-system-navigation" class="nav-system__menu menu-items">
+        
+       					                                                                
+      <li  class="dropdown dropdown--dartmouth-health">
+
+                <a href="/" class="has-dropdown nav-system__dropdown dh-btn--chevron-down" data-gtm="1677102139447-787184054" data-drupal-link-system-path="&lt;front&gt;">Dartmouth Health</a>
+        
+                    
+    
+            <ul  block="block-d-hh-system-navigation" class="nav-system__submenu sub-menu">
+        
+       					            
+      <li >
+
+                <a href="https://www.alicepeckday.org/" data-gtm="1677102139447-787184054">Alice Peck Day Memorial Hospital</a>
+        
+                
+        </li>
+       					            
+      <li >
+
+                <a href="https://www.cheshiremed.org/" data-gtm="1677102139447-787184054">Cheshire Medical Center</a>
+        
+                
+        </li>
+       					            
+      <li >
+
+                <a href="https://cancer.dartmouth.edu/" data-gtm="1677102139447-787184054">Dartmouth Cancer Center</a>
+        
+                
+        </li>
+       					            
+      <li >
+
+                <a href="https://childrens.dartmouth-health.org/" data-gtm="1677102139447-787184054">Dartmouth Health Children&#039;s</a>
+        
+                
+        </li>
+       					            
+      <li >
+
+                <a href="https://www.dartmouth-hitchcock.org/" data-gtm="1677102139447-787184054">Dartmouth Hitchcock Medical Center and Dartmouth Hitchcock Clinics</a>
+        
+                
+        </li>
+       					            
+      <li >
+
+                <a href="/hampstead" data-gtm="1677102139447-787184054" data-drupal-link-system-path="node/686">Hampstead Hospital</a>
+        
+                
+        </li>
+       					            
+      <li >
+
+                <a href="https://www.mtascutneyhospital.org/" data-gtm="1677102139447-787184054">Mt. Ascutney Hospital and Health Center</a>
+        
+                
+        </li>
+       					            
+      <li >
+
+                <a href="https://www.newlondonhospital.org/" data-gtm="1677102139447-787184054">New London Hospital</a>
+        
+                
+        </li>
+       					            
+      <li >
+
+                <a href="https://svmc.org/" data-gtm="1677102139447-787184054">Southwestern Vermont Medical Center</a>
+        
+                
+        </li>
+       					            
+      <li >
+
+                <a href="https://vrh.org/" data-gtm="1677102139447-787184054">Valley Regional Hospital</a>
+        
+                
+        </li>
+       					            
+      <li >
+
+                <a href="/vnh" data-gtm="1677102139447-787184054" data-drupal-link-system-path="node/603">Visiting Nurse and Hospice for Vermont and New Hampshire</a>
+        
+                
+        </li>
+        </ul>
+  
+                
+        </li>
+       					                            	          	          	              
+      <li  class="nav-system-Providers">
+
+                <a href="https://providers.dartmouth-health.org/" data-gtm="1677102139447-787184054">Providers</a>
+        
+                
+        </li>
+       					                            	          	          	              
+      <li  class="nav-system-Locations">
+
+                <a href="/members" data-gtm="1677102139447-787184054" data-drupal-link-system-path="node/2">Locations</a>
+        
+                
+        </li>
+       					                            	          	          	              
+      <li  class="nav-system-Careers">
+
+                <a href="https://careers.dartmouth-health.org/" data-gtm="1677102139447-787184054">Careers</a>
+        
+                
+        </li>
+       					                            	          	          	              
+      <li  class="nav-system-Patient-Login">
+
+                <a href="/patient-login" data-gtm="1677102139447-787184054" data-drupal-link-system-path="node/59">Patient Login</a>
+        
+                
+        </li>
+        </ul>
+  
+
+
+          </nav>
+  </div>
+</div>
+
+  </div>
+
+    <div class="row">
+        <div class="header__block-1">
+    <div class="thunderstone-block-search-form search-global__wrapper--mobile" data-drupal-selector="thunderstone-block-search-form" id="block-d-hh-thunderstone-search-form-mobile">
+  
+    
+      <form block="block-d-hh-thunderstone-search-form-mobile" action="/articles/how-sleep-times-stress" method="post" accept-charset="UTF-8" role="search">
+	<div class="search-global">
+		<input placeholder="Search site" data-twig-suggestion="thunderstone_block_search_form" data-drupal-selector="edit-query" type="text" id="edit-query" name="query" value="" size="15" maxlength="128" class="form-text required search-global__input" required="required" aria-required="true" aria-label="Search site" /><input autocomplete="off" data-twig-suggestion="thunderstone_block_search_form" data-drupal-selector="form-m-a8rfjcfjbjltlzhg9horsp0om7khmwqk465fguk" type="hidden" name="form_build_id" value="form--M-_a8RfjCfJbJltlzhg9HORsp0oM7kHMwQK465fGuk" />
+<input data-twig-suggestion="thunderstone_block_search_form" data-drupal-selector="edit-thunderstone-block-search-form" type="hidden" name="form_id" value="thunderstone_block_search_form" />
+<div data-twig-suggestion="thunderstone_block_search_form" data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><button data-twig-suggestion="thunderstone_block_search_form" data-drupal-selector="edit-submit" type="submit" id="edit-submit" name="op" value="Search" class="button js-form-submit form-submit search-global__btn" aria-label="Search"></button></div>
+
+	</div>
+</form>
+  </div>
+
+  </div>
+
+        <div class="header__block-2">
+      		<div class="header__dh-logo--laptop col w3--laptop-s">
+				<a href="/" rel="home" class="header__dh-logo">
+					<img class="header__dh-logo--laptop__web" src="/themes/custom/d_hh/dartmouth-health.svg" alt="Dartmouth Health" width="300" height="118" />
+					<img class="header__dh-logo--laptop__print" src="/themes/custom/d_hh/dist/structural-images/DH_Logo_OneColor_PRINT.svg" alt="Dartmouth Health" width="300" height="85" />
+				</a>
+		</div>
+  
+		<div class="header__dh-logo--member col w5--laptop-s pt-xxs">
+
+</div>
+
+<div class="thunderstone-block-search-form search-global__wrapper w4--laptop-s" data-drupal-selector="thunderstone-block-search-form-2" id="block-d-hh-thunderstone-search-form">
+  
+    
+      <form block="block-d-hh-thunderstone-search-form" action="/articles/how-sleep-times-stress" method="post" accept-charset="UTF-8" role="search">
+	<div class="search-global">
+		<input placeholder="Search site" data-twig-suggestion="thunderstone_block_search_form" data-drupal-selector="edit-query" type="text" id="edit-query--2" name="query" value="" size="15" maxlength="128" class="form-text required search-global__input" required="required" aria-required="true" aria-label="Search site" /><input autocomplete="off" data-twig-suggestion="thunderstone_block_search_form" data-drupal-selector="form-qad4yvjb1t6zl-sbboml7za1fog9mv59e-ijgjhxly" type="hidden" name="form_build_id" value="form--qad4yVjB1t6zL_SBBOMl7zA1fog9Mv59e_iJGjHXLY" />
+<input data-twig-suggestion="thunderstone_block_search_form" data-drupal-selector="edit-thunderstone-block-search-form-2" type="hidden" name="form_id" value="thunderstone_block_search_form" />
+<div data-twig-suggestion="thunderstone_block_search_form" data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions--2"><button data-twig-suggestion="thunderstone_block_search_form" data-drupal-selector="edit-submit" type="submit" id="edit-submit--2" name="op" value="Search" class="button js-form-submit form-submit search-global__btn" aria-label="Search"></button></div>
+
+	</div>
+</form>
+  </div>
+
+  </div>
+
+        <div class="header__block-3">
+    <div id="block-d-hh-menubutton">
+  
+    
+      
+            <div><button class="dh-btn dh-btn--ghost dh-btn--icon-bars-color-white" data-gtm="1580490304325-1108704833" id="nav-toggle">Menu</button>
+</div>
+      
+  </div>
+
+
+<div id="block-d-hh-log-into-mydh" class="header__login-link header__login-link--mobile">
+  
+    
+      
+            <div><a class="btn-txt" data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="046515d4-14c9-4a53-bff2-4922a2f4ac14" data-gtm="1580490231855-1473539579" href="/patient-login">Patient Login</a>
+</div>
+      
+  </div>
+
+  </div>
+
+    </div>
+
+      <div class="nav-main__wrapper">
+    
+
+<nav role="navigation" aria-labelledby="block-d-hh-main-navigation-menu"  id="block-d-hh-main-navigation" class="nav-main row nav-collapse">
+            
+  <h2  class="visually-hidden" id="block-d-hh-main-navigation-menu">Main navigation</h2>
+  
+      
+
+
+  
+    
+            <ul  block="block-d-hh-main-navigation" class="nav-main__menu menu-items">
+        
+                                	          				          	              
+      <li >
+
+                <a href="/" data-drupal-link-system-path="&lt;front&gt;">Home</a>
+        
+                
+        </li>
+                                                                    
+      <li  class="dropdown">
+
+                <a href="/about" class="has-dropdown nav-main__dropdown dh-btn--chevron-down-color-white" data-drupal-link-system-path="node/3">About</a>
+        
+                    
+    
+            <ul  block="block-d-hh-main-navigation" class="nav-main__submenu sub-menu">
+        
+                
+      <li >
+
+                <a href="/about/who-is-dartmouth-health" data-drupal-link-system-path="node/64">Who Is Dartmouth Health?</a>
+        
+                
+        </li>
+                
+      <li >
+
+                <a href="/about/leadership" data-drupal-link-system-path="node/79">Leadership</a>
+        
+                
+        </li>
+                
+      <li >
+
+                <a href="/about/belonging" data-drupal-link-system-path="node/136">Our Commitment to Belonging</a>
+        
+                
+        </li>
+                
+      <li >
+
+                <a href="/about/our-history" data-drupal-link-system-path="node/82">Our History</a>
+        
+                
+        </li>
+                
+      <li >
+
+                <a href="/about/health-policy" data-drupal-link-system-path="node/121">Health Policy</a>
+        
+                
+        </li>
+                
+      <li >
+
+                <a href="/about/population-community-health" data-drupal-link-system-path="node/316">Population and Community Health</a>
+        
+                
+        </li>
+                
+      <li >
+
+                <a href="/aco" data-drupal-link-system-path="node/438">ACO Programs</a>
+        
+                
+        </li>
+                
+      <li >
+
+                <a href="/about/privacy" data-drupal-link-system-path="node/99">Patient Rights and Privacy</a>
+        
+                
+        </li>
+        </ul>
+  
+                
+        </li>
+                                	          				          	              
+      <li >
+
+                <a href="/members" data-drupal-link-system-path="node/2">Our Members</a>
+        
+                
+        </li>
+                                	          				          	              
+      <li >
+
+                <a href="/newsroom" data-drupal-link-system-path="node/252">Newsroom</a>
+        
+                
+        </li>
+                                                                    
+      <li  class="dropdown">
+
+                <a href="/patients" class="has-dropdown nav-main__dropdown dh-btn--chevron-down-color-white" data-drupal-link-system-path="node/107">For Patients</a>
+        
+                    
+    
+            <ul  block="block-d-hh-main-navigation" class="nav-main__submenu sub-menu">
+        
+                
+      <li >
+
+                <a href="/find-care" data-drupal-link-system-path="node/1015">Find Care</a>
+        
+                
+        </li>
+                
+      <li >
+
+                <a href="/flu" data-drupal-link-system-path="node/557">Flu Vaccination Clinics</a>
+        
+                
+        </li>
+                
+      <li >
+
+                <a href="https://www.dartmouth-hitchcock.org/covid19">COVID-19 Information</a>
+        
+                
+        </li>
+                
+      <li >
+
+                <a href="/patients/masking-policy" data-drupal-link-system-path="node/1376">Masking Policy</a>
+        
+                
+        </li>
+                
+      <li >
+
+                <a href="/patients/medical-records-release-forms" data-drupal-link-system-path="node/241">Medical Records &amp; Release Forms</a>
+        
+                
+        </li>
+                
+      <li >
+
+                <a href="/geriatric" data-drupal-link-system-path="node/215">Geriatric Center of Excellence</a>
+        
+                
+        </li>
+                
+      <li >
+
+                <a href="/mental-health" data-drupal-link-system-path="node/109">Mental Health</a>
+        
+                
+        </li>
+                
+      <li >
+
+                <a href="/articles" data-drupal-link-system-path="node/722">Living Healthier</a>
+        
+                
+        </li>
+                
+      <li >
+
+                <a href="/patients/patient-education" data-drupal-link-system-path="node/503">Patient Education for Your Health</a>
+        
+                
+        </li>
+        </ul>
+  
+                
+        </li>
+                                                                    
+      <li  class="dropdown">
+
+                <a href="/research" class="has-dropdown nav-main__dropdown dh-btn--chevron-down-color-white" data-drupal-link-system-path="node/301">Research and Innovation</a>
+        
+                    
+    
+            <ul  block="block-d-hh-main-navigation" class="nav-main__submenu sub-menu">
+        
+                
+      <li >
+
+                <a href="/carhe" data-drupal-link-system-path="node/303">Center for Advancing Rural Health Equity</a>
+        
+                
+        </li>
+                
+      <li >
+
+                <a href="/rural-healthcare-science" data-drupal-link-system-path="node/273">Center for Rural Health Care Delivery Science</a>
+        
+                
+        </li>
+                
+      <li >
+
+                <a href="/research/clinical-trials" data-drupal-link-system-path="node/302">Clinical Trials</a>
+        
+                
+        </li>
+                
+      <li >
+
+                <a href="/research/hrpp-irb" data-drupal-link-system-path="node/421">Human Research Protection Program and Institutional Review Board</a>
+        
+                
+        </li>
+        </ul>
+  
+                
+        </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+    <div class="stitch-3 h-s">&nbsp;</div>
+  </header>
+
+  
+    <div>
+    <div id="block-d-hh-breadcrumbs" class="nav-crumbs__wrapper">
+  
+    
+        <nav role="navigation" aria-labelledby="system-breadcrumb" class="row">
+    <h2 id="system-breadcrumb" class="visually-hidden">Breadcrumb</h2>
+    <ul class="nav-crumbs list-reset mb-0">
+          <li>
+                  <a href="/">Home</a>
+                          <span>/</span>
+              </li>
+          <li>
+                  <a href="/articles">Articles</a>
+                      </li>
+        </ul>
+  </nav>
+
+  </div>
+
+  </div>
+
+    <div>
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+  
+
+  
+   
+
+
+                
+    
+
+              
+  <div class="main__wrapper-1" data-content-type="article">
+    
+    
+                      <div class="row main__wrapper-2">
+
+            
+                        
+        
+    
+      <main role="main"  class="main clearfix">
+
+        <a name="main-content" id="main-content" tabindex="-1"></a>        <div  class="main__pad">
+
+                          <div class="story-article clearfix">
+        
+        
+            <div>
+    <div id="block-d-hh-pagetitle">
+  
+    
+      
+  <h1><span>How to Sleep in Times of Stress</span>
+</h1>
+
+
+  </div>
+<div id="block-d-hh-content">
+  
+    
+        <article>
+    <ul class="list-reset mb-xl story-meta">
+       
+
+      
+        <li class="h5 color-gray-45 pt-xs mb-0 story-meta__date">
+            <div><time datetime="2025-03-21T18:45:44Z">March 21st, 2025</time>
+</div>
+      </li>
+    </ul>
+
+                         <figure class="story-article__feature mb-0 figure figure--story-feature">
+                                  
+            <div>  <img loading="lazy" src="/sites/default/files/styles/max_width_495/public/2025-03/Sleep_1400x904_0.jpg?itok=aKCxsZ02" width="495" height="320" alt="woman awake in bed" />
+
+
+</div>
+      
+                                                  </figure>
+    
+    
+    <div>
+      
+            <div><p>Stress might be keeping you awake at night.</p><p>Worrying about finances, work, politics, or illness activates your nervous system and releases hormones like cortisol and adrenaline that disrupt your sleep.</p><p>“Negative thoughts and emotions turn on our fight-or-flight response, which causes our bodies to respond in a big way. The response is natural and it’s there to keep us alive,” says <a href="https://providers.dartmouth-health.org/1622/catherine-c-schuman">Catherine C. Schuman, Ph.D</a>, a clinical psychiatrist at <a href="https://www.cheshiremed.org/">Dartmouth Health’s Cheshire Medical Center</a>.</p><p>Schuman says that for the average person in good health, a few bad nights of sleep are not harmful in the long run.</p><p>Still, adults need between seven to nine hours and most of us need about eight hours of shut-eye daily, which is necessary for a healthy brain and body.</p><p><a href="https://www.nhlbi.nih.gov/health/sleep/why-sleep-important">Research shows</a> that people who don’t sleep enough have a higher risk of heart disease, obesity, high blood pressure, and stroke. A <a href="https://www.nature.com/articles/s41591-024-03155-8">2024 study</a> also found that insufficient, irregular, and poor-quality sleep is associated with depression and anxiety disorders.</p><p>Here are a few relaxation tips from our experts.</p><h2>Don’t stress about sleep</h2><p>Stress, even about good things, can aggravate sleep. Whether you're worrying about job layoffs or planning your wedding, your fight-or-flight response will get activated.</p><div class="panel panel--right panel--medium bg-color-juniper-97"><div class="panel__body"><h4>Subscribe to the Living Better newsletter</h4><p>Your trusted resource for reliable and up-to-date health and wellness information in the Northeast. Get it delivered to your inbox every other week.</p><p><a class="dh-btn dh-btn--arrow" href="https://confirmsubscription.com/h/r/B36B3E8DD1D89AD12540EF23F30FEDED">Sign up today</a></p></div></div><p>“Your brain isn't always able to tell between the two,” says sleep expert <a href="https://providers.dartmouth-health.org/2219/alexandria-m-jarvis">Alexandria M. Jarvis, MSN, APRN </a>, of <a href="https://www.dartmouth-hitchcock.org/sleep-services">Dartmouth Health’s Sleep Disorders Center</a>. “And it’s hard to sleep when your stress response is activated.”</p><p>If you’re feeling stressed, your heart rate increases, your blood pressure rises, your appetite wanes, and your muscles grow tense. Stress hormones circulate in your body and keep you awake.</p><p>Feeling stressed about sleep only adds to the problem.</p><p>“You don't want to try and force yourself to go to sleep because it’s not going to work,” Jarvis says. “It only increases your stress and makes sleeping even harder.”</p><h2>Breathing techniques to relax</h2><p>Inhale slow, deep breaths through your nose and exhale out through your mouth for at least a couple of minutes.</p><p>“Keep your lips pursed like you’re blowing out a candle,” Jarvis says.</p><p>Deep breathing increases oxygen to the brain and signals to the brain that you're safe and don't need to use the fight-or-flight response.</p><p>Thinking about a peaceful or special place is also effective when focusing on breathing.</p><p>“Imagine something like sitting on a beach,” Jarvis says. “You might initially feel frustrated if breathing exercises and imagery don’t help you improve sleep immediately. Try to practice during the day to get better at it.”</p><h2>Get out of bed if you can’t sleep</h2><p>Schuman says to get out of bed if you can't fall asleep within 20 minutes rather than tossing and turning.</p><p>Do activities that aren’t stimulating, like folding laundry, reading a book (not a digital one), coloring with crayons or pencils, or writing notes to people.</p><p>“Get out of your bedroom and engage only in boring activities. Don't go back to your bed until you're sleepy,” Schuman says. “You don't want to train your body to be awake in bed.”</p><h2>Pay attention to your circadian rhythm</h2><p><a href="/articles/5-things-you-should-know-about-sleep" data-entity-type="node" data-entity-uuid="ef376b8e-78c2-4421-b52e-8c8ff33a3a23" data-entity-substitution="canonical">Circadian rhythm</a>, your body's 24-hour internal clock, controls your body's sleep-wake cycle. Melatonin, the hormone the pineal gland produces at night, serves as a time cue for your circadian rhythm.</p><p>Your circadian rhythm depends on sun or light exposure in the morning and darkness at night to keep it aligned.</p><p>“Our bodies need sunlight, and that’s why depression can be even harder in the winter,” Schuman says. “Get 20 minutes of sunlight in the morning to help you sleep.”</p><h2>Winding down and self-care</h2><p>If you’re struggling with sleep, turn off the television, your phone, and all electronics one to two hours before bedtime.</p><p>Try not to eat close to bedtime and decrease your liquid intake an hour before bed to avoid waking up to use the bathroom. Schuman also suggests getting up at the same time every day and avoiding naps.</p><p>Eating healthy and exercising regularly (even for 20 minutes daily) can reduce stress and improve sleep. Schuman says to prioritize making time for yourself and the things you love.</p><p>“Do one fun thing a week. Maybe it’s something social or something alone you enjoy,” she says. "If you're not caring for yourself, it’s hard on your body. Make sure you spend some time engaging in things that make you happy because it matters to your wellbeing.”</p></div>
+      
+    </div>
+  </article>
+</div>
+</div>
+</div>
+<footer class="story-article-footer pt-xl">
+<div class="row border-top border-width-xxs border-color-evergreen"></div
+    </div>
+</footer>
+
+  </div>
+<div class="views-element-container" id="block-d-hh-views-block-stories-related-articles-block">
+  
+      <h2>Related articles</h2>
+    
+      <div block="block-d-hh-views-block-stories-related-articles-block"><div class="js-view-dom-id-26e64b0fdeace5c1eee9912d71b83279558b563f030820acb143d6d51764f3b9">
+  
+  
+  
+
+  
+  
+  
+
+  <div class="columns-3">
+    <div class="col flex flex-col"><a href="/articles/dermatologist-approved-tips-healthier-winter-skin"><img src="/sites/default/files/styles/max_width_495/public/2026-01/Healthy_Winter_Skin_web.jpg?itok=XaGPnSqm" /></a> 
+<div class="pl-m pr-m flex flex-col h100">
+<h2 class="h3 mb-s"><a href="/articles/dermatologist-approved-tips-healthier-winter-skin" class="anchor-reset">Dermatologist-Approved Tips for Healthier Winter Skin  </a></h2>
+<p class="text-small">During winter, your skin loses natural oils and water, which can leave it dehydrated. Conditions like eczema, psoriasis, and dermatitis often get worse in the cold months. That’s why experts recommend changing your skincare routine.</p>
+<p class="mt-auto text-small"><a href="/articles/dermatologist-approved-tips-healthier-winter-skin" title="View the story &#039;Dermatologist-Approved Tips for Healthier Winter Skin  &#039;" hreflang="en">Read more</a></p>
+</div></div>
+    <div class="col flex flex-col"><a href="/articles/how-start-caring-your-aging-parents"><img src="/sites/default/files/styles/max_width_495/public/2025-01/margaret-and-dwayna-covey.jpg?itok=75oYnBh3" /></a> 
+<div class="pl-m pr-m flex flex-col h100">
+<h2 class="h3 mb-s"><a href="/articles/how-start-caring-your-aging-parents" class="anchor-reset">How to Start Caring for Your Aging Parents</a></h2>
+<p class="text-small">Watching your parents grow old is tough. Helping an aging parent starts with communication, advocacy, and support.</p>
+<p class="mt-auto text-small"><a href="/articles/how-start-caring-your-aging-parents" title="View the story &#039;How to Start Caring for Your Aging Parents&#039;" hreflang="en">Read more</a></p>
+</div></div>
+    <div class="col flex flex-col"><a href="/articles/should-men-boost-their-testosterone"><img src="/sites/default/files/styles/max_width_495/public/2025-11/man%20exercising_627361756_0.jpg?itok=zSCsMqha" /></a> 
+<div class="pl-m pr-m flex flex-col h100">
+<h2 class="h3 mb-s"><a href="/articles/should-men-boost-their-testosterone" class="anchor-reset">Should Men Boost Their Testosterone?</a></h2>
+<p class="text-small">What is the truth about testosterone in men? Is there male menopause and should men try to increase their testosterone? Endocrinologist Ugis Gruntmanis, MD, author of many studies on testosterone in men, provides all you need to know about the hormone. </p>
+<p class="mt-auto text-small"><a href="/articles/should-men-boost-their-testosterone" title="View the story &#039;Should Men Boost Their Testosterone?&#039;" hreflang="en">Read more</a></p>
+</div></div>
+</div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </div>
+
+  </div>
+
+
+        </div>              </main>
+          </div>
+  </div>
+    
+                      <div class="stitch-3 h-s">&nbsp;</div>
+      <footer class="footer" role="contentinfo">
+          <div>
+    <div id="block-d-hh-footer-logos" class="row">
+  
+    
+      
+            <div><div class="columns footer-logos">
+<div class="col footer-logos__dh"><img alt="Dartmouth Health" class="footer-logos__dh-img" height="85" src="/themes/custom/d_hh/dist/structural-images/dartmouth-health-reversed.svg" width="300" loading="lazy">
+<nav aria-label="Employees navigation" role="navigation">
+<ul class="list-reset pt-xl mt-m mb-0">
+	<li class="h5 pt-0 mb-0 footer-dartmouth-health border-no"><a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="4e30b40a-ec69-427b-bce7-5ead53e428fd" href="/employees">For Employees</a></li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+      
+  </div>
+<div class="row">
+	<nav class="columns" role="navigation" aria-label="Tertiary navigation and social media">
+<div id="block-d-hh-footer-links-copyright" class="mb-xl col w8--tablet-m nav-utility">
+  
+    
+      
+            <div><ul class="list-reset"><li><a class="color-white" href="/about/privacy" data-entity-type="node" data-entity-uuid="50e3ff90-f910-4c17-8532-a3dc2fad6082" data-entity-substitution="canonical">Notice of Privacy Practices</a></li><li><a href="/website-privacy" data-entity-type="node" data-entity-uuid="335689d7-56ec-41d6-9862-46eb362b4c89" data-entity-substitution="canonical">Website Privacy Statement</a></li><li><a href="/hampstead/payment-services-price-transparency-health-insurance" data-entity-type="node" data-entity-uuid="1b0fee1a-9fd4-4d20-b863-60e75b5df732" data-entity-substitution="canonical">Price Transparency</a></li></ul><p class="copyright"><a href="/about/copyright" data-entity-type="node" data-entity-uuid="7b65583c-3257-48e6-bd78-50d948f715a4" data-entity-substitution="canonical">Copyright © 2026 Dartmouth Health. All rights reserved.</a><br><span class="text-small">The Dartmouth name (which is a registered trademark of Trustees of Dartmouth College) will be used under license by Dartmouth Health.</span></p></div>
+      
+  </div>
+<div id="block-d-hh-footer-social-media" class="col w4--tablet-m footer-social">
+  
+    
+      
+            <div><ul class="list-reset">
+	<li class="h5 pt-0 mb-m footer-social__landing">Social Media</li>
+	<li><a href="//www.facebook.com/DartmouthHealth"><i aria-hidden="true" class="icon-facebook">&nbsp;</i><span class="visually-hidden">Dartmouth Health on Facebook</span></a></li>
+	<li><a href="//www.youtube.com/dartmouthhealth"><i aria-hidden="true" class="icon-youtube">&nbsp;</i><span class="visually-hidden">Dartmouth Health on YouTube</span></a></li>
+	<li><a href="//twitter.com/DartmouthHealth"><i aria-hidden="true" class="icon-twitter">&nbsp;</i><span class="visually-hidden">Dartmouth Health on Twitter</span></a></li>
+	<li><a href="//linkedin.com/company/dartmouth-health"><i aria-hidden="true" class="icon-linkedin">&nbsp;</i><span class="visually-hidden">Dartmouth Health on Linked In</span></a></li>
+	<li><a href="//instagram.com/dartmouthhealth"><i aria-hidden="true" class="icon-instagram">&nbsp;</i><span class="visually-hidden">Dartmouth Health on Instagram</span></a></li>
+</ul>
+</div>
+      
+  </div>
+    </nav>
+  </div>
+
+  </div>
+
+          <div class="row">        
+                                    <div class="be-ix-link-block">
+                    <div class="be-ix-link-block"><div class="be-related-link-container"><div class="be-label">Also of interest</div><ul class="be-list"><li class="be-list-item"><a class="be-related-link" href="https://www.dartmouth-health.org/news/heads-up-five-signs-emotional-suffering">The Five Signs of emotional suffering and how...</a></li><li class="be-list-item"><a class="be-related-link" href="https://www.dartmouth-health.org/articles/5-things-you-should-know-about-sleep">5 Things You Should Know about Sleep</a></li><li class="be-list-item"><a class="be-related-link" href="https://www.dartmouth-health.org/articles/benadryl-still-best-choice-allergy-relief">Is Benadryl Still the Best Choice for Allergy Relief?</a></li></ul> </div></div>
+
+                    
+<!-- be_ixf, sdk, is -->
+
+                  </div>
+                                  </div>    
+        </footer>
+              </div>
+  </div>
+
+    
+    <script src="/sites/default/files/js/js_itmdYGadDdEcmTQJ3sz3sxUsEAlDtntnXWRGXT9FE18.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=d_hh&amp;include=eJxLic_I0E_PyU9KzNHNKtZJAXFLEtNzE_MS01OLAKueC0M"></script>
+
+  </body>
+</html>
