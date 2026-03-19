@@ -1,73 +1,82 @@
 import React, { useState } from "react";
 
 const Index = () => {
-  // Sur Vercel, pour les fichiers dans /public, on utilise "./nom"
-  const [currentImage, setCurrentImage] = useState("./Product-blue.png");
+  // On utilise les images du dossier public
+  const [currentImage, setCurrentImage] = useState("Product-blue.png");
 
   return (
-    <div className="min-h-screen bg-white font-sans text-slate-900">
-      <nav className="p-8 flex justify-between items-center bg-white/80 backdrop-blur-md sticky top-0 z-50">
-        <span className="font-serif text-3xl font-bold tracking-tighter italic">ZenDream</span>
-        <div className="flex gap-8 text-[10px] uppercase tracking-[0.4em] font-black opacity-30">
-          <span>Shop</span>
-          <span>About</span>
+    <div className="min-h-screen bg-[#FDFCFB] font-sans text-slate-900">
+      {/* HEADER SONORA STYLE */}
+      <nav className="p-8 flex justify-between items-center bg-transparent">
+        <span className="font-serif text-2xl tracking-[0.2em] uppercase font-light">Sonora</span>
+        <div className="flex gap-10 text-[11px] uppercase tracking-[0.3em] font-medium opacity-40">
+          <span className="cursor-pointer hover:opacity-100 transition-opacity">Univers</span>
+          <span className="cursor-pointer hover:opacity-100 transition-opacity">Collection</span>
         </div>
       </nav>
 
-      <main className="max-w-6xl mx-auto px-6 py-10 lg:py-20">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+      <main className="max-w-7xl mx-auto px-6 py-12 lg:py-20">
+        <div className="grid lg:grid-cols-2 gap-20 items-center">
           
-          {/* L'IMAGE DU PRODUIT */}
-          <div className="relative group bg-slate-50 rounded-[50px] aspect-square flex items-center justify-center p-12 overflow-hidden shadow-inner border border-slate-100">
+          {/* VISUEL PRINCIPAL (Style Galerie) */}
+          <div className="relative group aspect-[4/5] bg-[#F7F5F2] rounded-sm overflow-hidden flex items-center justify-center p-12 shadow-sm">
             <img 
               src={currentImage} 
               alt="ZenDream" 
-              className="max-h-full w-auto object-contain drop-shadow-[0_20px_50px_rgba(0,0,0,0.1)] transition-all duration-700 ease-out hover:scale-105"
+              className="max-h-full w-auto object-contain transition-all duration-1000 ease-in-out scale-95 group-hover:scale-100"
               key={currentImage}
-              onError={(e) => {
-                // Secours ultime si l'image ne s'affiche pas
-                const target = e.target as HTMLImageElement;
-                if (target.src.startsWith('./')) {
-                  target.src = currentImage.replace('./', '');
-                }
-              }}
             />
+            <div className="absolute bottom-8 left-8">
+              <p className="text-[10px] uppercase tracking-[0.4em] opacity-30">Artisanat Français</p>
+            </div>
           </div>
 
-          {/* LE TEXTE ET LES BOUTONS */}
+          {/* DÉTAILS PRODUIT */}
           <div className="space-y-12">
-            <div className="space-y-4">
-              <span className="inline-block px-4 py-1 bg-emerald-50 text-emerald-600 text-[10px] font-bold uppercase tracking-[0.3em] rounded-full">New Collection</span>
-              <h1 className="text-7xl font-serif leading-[1.1] text-slate-900">ZenDream</h1>
-              <p className="text-3xl text-slate-400 font-light italic">79.00 €</p>
-            </div>
+            <header className="space-y-6">
+              <h2 className="text-[12px] uppercase tracking-[0.5em] text-emerald-700 font-bold">L'expérience ZenDream</h2>
+              <h1 className="text-7xl font-serif font-light leading-tight tracking-tight text-slate-800">
+                Brume de <br/>Sérénité
+              </h1>
+              <div className="h-px w-20 bg-slate-200 my-8"></div>
+              <p className="text-3xl font-light text-slate-400 italic">79.00 €</p>
+            </header>
 
-            <div className="space-y-6 pt-8 border-t border-slate-100">
-              <p className="text-[10px] font-bold uppercase tracking-[0.5em] text-slate-300">Couleur de la brume</p>
-              <div className="flex gap-8">
-                {/* Bleu */}
+            <div className="space-y-8">
+              <p className="text-[11px] uppercase tracking-[0.3em] text-slate-400 font-bold">Nuancier de l'âme</p>
+              
+              <div className="flex gap-10">
+                {/* Choix Bleu */}
                 <button 
-                  onClick={() => setCurrentImage("./Product-blue.png")}
-                  className={`w-14 h-14 rounded-full bg-[#93c5fd] transition-all duration-500 ${currentImage.includes("blue") ? 'ring-4 ring-emerald-500 ring-offset-4 scale-110 shadow-lg' : 'opacity-60 hover:opacity-100'}`}
-                ></button>
+                  onClick={() => setCurrentImage("Product-blue.png")}
+                  className="group flex flex-col items-center gap-4 outline-none"
+                >
+                  <div className={`w-12 h-12 rounded-full bg-[#B5C7D3] transition-all duration-500 ${currentImage === "Product-blue.png" ? 'ring-1 ring-slate-800 ring-offset-8 scale-110' : 'hover:scale-105 opacity-70'}`}></div>
+                  <span className={`text-[9px] uppercase tracking-[0.2em] transition-opacity ${currentImage === "Product-blue.png" ? 'opacity-100' : 'opacity-0'}`}>Bleu Azur</span>
+                </button>
 
-                {/* Gris */}
+                {/* Choix Gris */}
                 <button 
-                  onClick={() => setCurrentImage("./Product-grey.png")}
-                  className={`w-14 h-14 rounded-full bg-[#94a3b8] transition-all duration-500 ${currentImage.includes("grey") ? 'ring-4 ring-emerald-500 ring-offset-4 scale-110 shadow-lg' : 'opacity-60 hover:opacity-100'}`}
-                ></button>
+                  onClick={() => setCurrentImage("Product-grey.png")}
+                  className="group flex flex-col items-center gap-4 outline-none"
+                >
+                  <div className={`w-12 h-12 rounded-full bg-[#9DA3A9] transition-all duration-500 ${currentImage === "Product-grey.png" ? 'ring-1 ring-slate-800 ring-offset-8 scale-110' : 'hover:scale-105 opacity-70'}`}></div>
+                  <span className={`text-[9px] uppercase tracking-[0.2em] transition-opacity ${currentImage === "Product-grey.png" ? 'opacity-100' : 'opacity-0'}`}>Gris Minéral</span>
+                </button>
               </div>
             </div>
 
-            <button className="w-full bg-slate-900 text-white py-6 rounded-3xl font-bold uppercase tracking-[0.3em] shadow-2xl hover:bg-black transition-all active:scale-[0.97]">
-              Ajouter au panier
-            </button>
+            <div className="pt-10">
+              <button className="w-full border border-slate-900 text-slate-900 py-6 rounded-none text-[12px] uppercase tracking-[0.4em] hover:bg-slate-900 hover:text-white transition-all duration-500 font-light">
+                Ajouter à votre rituel
+              </button>
+            </div>
           </div>
         </div>
       </main>
-      
-      <footer className="py-20 text-center opacity-10">
-        <p className="text-[8px] uppercase tracking-[1em]">ZenDream Maker Edition 2026</p>
+
+      <footer className="py-20 text-center">
+        <p className="text-[9px] uppercase tracking-[0.8em] opacity-20">Sonora Zen — Harmonie & Design</p>
       </footer>
     </div>
   );
